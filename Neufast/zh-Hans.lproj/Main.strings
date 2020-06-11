@@ -1,0 +1,185 @@
+/* Class = "UIButton"; normalTitle = "Start Now"; ObjectID = "0Tp-Zo-aZW"; */
+"0Tp-Zo-aZW.normalTitle" = "现在开始";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "0vb-Ch-quZ"; */
+"0vb-Ch-quZ.normalTitle" = "跳跃";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "3JM-6m-m4f"; */
+"3JM-6m-m4f.text" = "登录";
+
+/* Class = "UIButton"; normalTitle = "Start the Interview"; ObjectID = "5ay-Ue-s8h"; */
+"5ay-Ue-s8h.normalTitle" = "开始面试";
+
+/* Class = "UILabel"; text = "Company:"; ObjectID = "7FA-kt-neV"; */
+"7FA-kt-neV.text" = "公司：";
+
+/* Class = "UILabel"; text = "Position Requested:"; ObjectID = "7kO-AO-7yi"; */
+"7kO-AO-7yi.text" = "要求的职位：";
+
+/* Class = "UILabel"; text = "Deadline"; ObjectID = "7le-a4-svj"; */
+"7le-a4-svj.text" = "最后期限";
+
+/* Class = "UILabel"; text = "6 in English"; ObjectID = "8Vk-TH-CPT"; */
+"8Vk-TH-CPT.text" = "6个英文";
+
+/* Class = "UILabel"; text = "Questions: "; ObjectID = "Aaz-Rh-OcN"; */
+"Aaz-Rh-OcN.text" = "问题：";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "AyT-dD-jb2"; */
+"AyT-dD-jb2.text" = "English";
+
+/* Class = "UIButton"; normalTitle = "       Practice Interview Questions"; ObjectID = "Bng-aL-EcN"; */
+"Bng-aL-EcN.normalTitle" = "       练习面试题";
+
+/* Class = "UILabel"; text = "2 in Mandarin"; ObjectID = "CDf-Ha-Mgj"; */
+"CDf-Ha-Mgj.text" = "2汉语";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "Ew6-Ka-Rkt"; */
+"Ew6-Ka-Rkt.text" = "隐私政策";
+
+/* Class = "UILabel"; text = "Distance:"; ObjectID = "FLB-Xt-FYU"; */
+"FLB-Xt-FYU.text" = "距离：";
+
+/* Class = "UILabel"; text = "Before the interview, you can practice as many times as you need to feel comfortable"; ObjectID = "Gpc-Nv-ZKY"; */
+"Gpc-Nv-ZKY.text" = "面试前，您可以根据需要练习多次";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "JH2-OK-3ea"; */
+"JH2-OK-3ea.normalTitle" = "背部";
+
+/* Class = "UILabel"; text = "Your access code has already been sent to your email address.  "; ObjectID = "JZ2-iM-7IQ"; */
+"JZ2-iM-7IQ.text" = "您的访问密码已发送到您的电子邮件地址。";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "JlY-Cc-6b7"; */
+"JlY-Cc-6b7.normalTitle" = "隐私政策";
+
+/* Class = "UILabel"; text = "Your information of this interview is as follows"; ObjectID = "KM2-Yy-AKt"; */
+"KM2-Yy-AKt.text" = "您这次面试的信息如下";
+
+/* Class = "UILabel"; text = "Duration:"; ObjectID = "KOH-PJ-kWx"; */
+"KOH-PJ-kWx.text" = "持续时间：";
+
+/* Class = "UILabel"; text = "Select the language for menus and fonts."; ObjectID = "KQd-Ii-GY1"; */
+"KQd-Ii-GY1.text" = "选择菜单和字体的语言。";
+
+/* Class = "UILabel"; text = "Interview Data & Time:"; ObjectID = "KSp-9x-Mi7"; */
+"KSp-9x-Mi7.text" = "面试数据和时间：";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "OFb-31-lhv"; */
+"OFb-31-lhv.text" = "中国传统的";
+
+/* Class = "UIButton"; normalTitle = "Help Center"; ObjectID = "Oen-kF-bOt"; */
+"Oen-kF-bOt.normalTitle" = "帮助中心";
+
+/* Class = "UILabel"; text = "Access Code:"; ObjectID = "PhU-qw-UON"; */
+"PhU-qw-UON.text" = "访问代码：";
+
+/* Class = "UIButton"; text = "      Hello        Amy Leung"; ObjectID = "eCi-2H-9x0";*/
+"eCi-2H-9x0.text" = "你好梁爱美";
+
+/* Class = "UIButton"; normalTitle = "Help Center"; ObjectID = "QnA-YH-knC"; */
+"QnA-YH-knC.normalTitle" = "帮助中心";
+
+/* Class = "UILabel"; text = "Display Language"; ObjectID = "Shk-10-XyY"; */
+"Shk-10-XyY.text" = "显示语言";
+
+/* Class = "UIButton"; normalTitle = "Practice Now"; ObjectID = "Uda-KJ-pwi"; */
+"Uda-KJ-pwi.normalTitle" = "立即练习";
+
+/* Class = "UIButton"; normalTitle = "Cannot access your account?"; ObjectID = "Vh7-Ri-CO2"; */
+"Vh7-Ri-CO2.normalTitle" = "无法访问您的帐户？";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "W6R-co-bEh"; */
+"W6R-co-bEh.text" = "Label";
+
+/* Class = "UILabel"; text = "Marketing Manager"; ObjectID = "WVu-oU-TOs"; */
+"WVu-oU-TOs.text" = "市场经理";
+
+/* Class = "UILabel"; text = "This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information. This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information.   "; ObjectID = "Wed-Aj-vfu"; */
+"Wed-Aj-vfu.text" = "本隐私政策旨在帮助您了解我们收集的信息，我们收集信息的原因以及如何更新，管理，导出和删除您的信息。 本隐私政策旨在帮助您了解我们收集的信息，我们收集信息的原因以及如何更新，管理，导出和删除您的信息。  ";
+
+/* Class = "UILabel"; text = "Hello ! Ammy Leung"; ObjectID = "WxK-HN-FDd"; */
+"WxK-HN-FDd.text" = "你好 ！ 梁爱美";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "X4V-4K-zkj"; */
+"X4V-4K-zkj.normalTitle" = "跳跃";
+
+/* Class = "UIButton"; normalTitle = "I have read and agree to the"; ObjectID = "XqC-8Y-14H"; */
+"XqC-8Y-14H.normalTitle" = "我已经阅读并且同意";
+
+/* Class = "UILabel"; text = "Complete Your Interview"; ObjectID = "ZB3-ed-rhf"; */
+"ZB3-ed-rhf.text" = "完成面试";
+
+/* Class = "UILabel"; text = "2020-05-30  5:30pm (UTC+8)"; ObjectID = "akT-PA-2KJ"; */
+"akT-PA-2KJ.text" = "2020-05-30  5:30pm (UTC+8)";
+
+/* Class = "UILabel"; text = "Light:"; ObjectID = "b5q-Pd-Lbo"; */
+"b5q-Pd-Lbo.text" = "光：";
+
+/* Class = "UILabel"; text = "www.starbucks.com"; ObjectID = "eQM-q3-2Xo"; */
+"eQM-q3-2Xo.text" = "www.starbucks.com";
+
+/* Class = "UILabel"; text = "30 mins"; ObjectID = "hBP-Rp-O20"; */
+"hBP-Rp-O20.text" = "30分钟";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "iLN-GW-Chb"; */
+"iLN-GW-Chb.text" = "简体中文";
+
+/* Class = "UILabel"; text = "This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information. This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information.   "; ObjectID = "jmU-d6-GpD"; */
+"jmU-d6-GpD.text" = "本隐私政策旨在帮助您了解我们收集的信息，我们收集信息的原因以及如何更新，管理，导出和删除您的信息。 本隐私政策旨在帮助您了解我们收集的信息，我们收集信息的原因以及如何更新，管理，导出和删除您的信息。  ";
+
+/* Class = "UILabel"; text = "Days Left:"; ObjectID = "kWq-oJ-XsA"; */
+"kWq-oJ-XsA.text" = "剩余天数：";
+
+/* Class = "UILabel"; text = "Microphone"; ObjectID = "lUk-Zb-XoS"; */
+"lUk-Zb-XoS.text" = "麦克风";
+
+/* Class = "UILabel"; text = "Website: "; ObjectID = "mXZ-j5-Ude"; */
+"mXZ-j5-Ude.text" = "网站：";
+
+/* Class = "UILabel"; text = "Practice!"; ObjectID = "oAs-ir-xwL"; */
+"oAs-ir-xwL.text" = "实践！";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "pp3-qd-8hl"; */
+"pp3-qd-8hl.normalTitle" = "下一个";
+
+/* Class = "UILabel"; text = "Starbucks Limited"; ObjectID = "pu8-h1-KHt"; */
+"pu8-h1-KHt.text" = "星巴克有限公司";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "rUS-HD-K5f"; */
+"rUS-HD-K5f.text" = "隐私政策";
+
+/* Class = "UILabel"; text = "Network:"; ObjectID = "sk6-kQ-UlP"; */
+"sk6-kQ-UlP.text" = "网络：";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "sl6-ah-nK3"; */
+"sl6-ah-nK3.normalTitle" = "下一个";
+
+/* Class = "UILabel"; text = "Video Interview!"; ObjectID = "tdG-fg-Y9B"; */
+"tdG-fg-Y9B.text" = "视频采访！";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "wSE-2O-FH1"; */
+"wSE-2O-FH1.normalTitle" = "背部";
+
+/* Class = "UILabel"; text = "Camera:"; ObjectID = "waM-Po-0Ny"; */
+"waM-Po-0Ny.text" = "相机：";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "wh7-Fa-zxH"; */
+"wh7-Fa-zxH.text" = "电子邮件：";
+
+/* Class = "UILabel"; text = "You shall make use of this opportunity to showcase your skills and ability to the recruiters."; ObjectID = "ycd-mi-Zc9"; */
+"ycd-mi-Zc9.text" = "您应利用此机会向招聘人员展示您的技能和能力。";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "z5p-FV-f62"; */
+"z5p-FV-f62.text" = "10";
+
+/* Class = "UILabel"; text = "After that video interview is conducted virtually. Every question has 30s preparation time. Now please get ready and start."; ObjectID = "zb3-Q7-dNg"; */
+"zb3-Q7-dNg.text" = "之后，视频采访实际上进行了。 每个问题有30秒钟的准备时间。 现在请准备好并开始。";
+
+/* Class = "UILabel"; text = "You shall make use of this opportunity to showcase your skills and ability to the recruiters."; ObjectID = "ycd-mi-Zc9"; */
+"ycd-mi-Zc9.text" = "You shall make use of this opportunity to showcase your skills and ability to the recruiters.";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "z5p-FV-f62"; */
+"z5p-FV-f62.text" = "10";
+
+/* Class = "UILabel"; text = "After that video interview is conducted virtually. Every question has 30s preparation time. Now please get ready and start."; ObjectID = "zb3-Q7-dNg"; */
+"zb3-Q7-dNg.text" = "After that video interview is conducted virtually. Every question has 30s preparation time. Now please get ready and start.";

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HelloViewCell" customModule="Neufast" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Your information of this interview is as follows" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKM-tC-1Vl">
+                        <rect key="frame" x="0.0" y="23" width="320" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.68627450980000004" green="0.69019607843137254" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hello ! Ammy Leung" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugh-gJ-puP">
+                        <rect key="frame" x="2" y="0.0" width="316" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <color key="textColor" red="0.28235294117647058" green="0.29019607843137252" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tKM-tC-1Vl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9YR-DV-Y9d"/>
+                    <constraint firstAttribute="trailing" secondItem="tKM-tC-1Vl" secondAttribute="trailing" id="QTf-Yq-s7f"/>
+                    <constraint firstItem="tKM-tC-1Vl" firstAttribute="top" secondItem="ugh-gJ-puP" secondAttribute="bottom" constant="2" id="S8N-Jt-dzj"/>
+                    <constraint firstItem="ugh-gJ-puP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="YaO-Ox-xst"/>
+                    <constraint firstItem="ugh-gJ-puP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="eFd-Q8-acs"/>
+                    <constraint firstItem="tKM-tC-1Vl" firstAttribute="top" secondItem="ugh-gJ-puP" secondAttribute="bottom" constant="2" id="jqN-Z2-Lyx"/>
+                    <constraint firstAttribute="bottom" secondItem="tKM-tC-1Vl" secondAttribute="bottom" id="nP0-kB-mh9"/>
+                    <constraint firstItem="ugh-gJ-puP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="r79-xa-D3Q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="131.8840579710145" y="103.79464285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,177 @@
+
+/* Class = "UIButton"; normalTitle = "Start Now"; ObjectID = "0Tp-Zo-aZW"; */
+"0Tp-Zo-aZW.normalTitle" = "Start Now";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "0vb-Ch-quZ"; */
+"0vb-Ch-quZ.normalTitle" = "Skip";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "3JM-6m-m4f"; */
+"3JM-6m-m4f.text" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Start the Interview"; ObjectID = "5ay-Ue-s8h"; */
+"5ay-Ue-s8h.normalTitle" = "Start the Interview";
+
+/* Class = "UILabel"; text = "Company:"; ObjectID = "7FA-kt-neV"; */
+"7FA-kt-neV.text" = "Company:";
+
+/* Class = "UILabel"; text = "Position Requested:"; ObjectID = "7kO-AO-7yi"; */
+"7kO-AO-7yi.text" = "Position Requested:";
+
+/* Class = "UILabel"; text = "Deadline"; ObjectID = "7le-a4-svj"; */
+"7le-a4-svj.text" = "Deadline";
+
+/* Class = "UILabel"; text = "6 in English"; ObjectID = "8Vk-TH-CPT"; */
+"8Vk-TH-CPT.text" = "6 in English";
+
+/* Class = "UILabel"; text = "Questions: "; ObjectID = "Aaz-Rh-OcN"; */
+"Aaz-Rh-OcN.text" = "Questions: ";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "AyT-dD-jb2"; */
+"AyT-dD-jb2.text" = "English";
+
+/* Class = "UIButton"; normalTitle = "       Practice Interview Questions"; ObjectID = "Bng-aL-EcN"; */
+"Bng-aL-EcN.normalTitle" = "       Practice Interview Questions";
+
+/* Class = "UILabel"; text = "2 in Mandarin"; ObjectID = "CDf-Ha-Mgj"; */
+"CDf-Ha-Mgj.text" = "2 in Mandarin";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "Ew6-Ka-Rkt"; */
+"Ew6-Ka-Rkt.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Distance:"; ObjectID = "FLB-Xt-FYU"; */
+"FLB-Xt-FYU.text" = "Distance:";
+
+/* Class = "UILabel"; text = "Before the interview, you can practice as many times as you need to feel comfortable"; ObjectID = "Gpc-Nv-ZKY"; */
+"Gpc-Nv-ZKY.text" = "Before the interview, you can practice as many times as you need to feel comfortable";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "JH2-OK-3ea"; */
+"JH2-OK-3ea.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Your access code has already been sent to your email address.  "; ObjectID = "JZ2-iM-7IQ"; */
+"JZ2-iM-7IQ.text" = "Your access code has already been sent to your email address.  ";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "JlY-Cc-6b7"; */
+"JlY-Cc-6b7.normalTitle" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Your information of this interview is as follows"; ObjectID = "KM2-Yy-AKt"; */
+"KM2-Yy-AKt.text" = "Your information of this interview is as follows";
+
+/* Class = "UILabel"; text = "Duration:"; ObjectID = "KOH-PJ-kWx"; */
+"KOH-PJ-kWx.text" = "Duration:";
+
+/* Class = "UILabel"; text = "Select the language for menus and fonts."; ObjectID = "KQd-Ii-GY1"; */
+"KQd-Ii-GY1.text" = "Select the language for menus and fonts.";
+
+/* Class = "UILabel"; text = "Interview Data & Time:"; ObjectID = "KSp-9x-Mi7"; */
+"KSp-9x-Mi7.text" = "Interview Data & Time:";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "OFb-31-lhv"; */
+"OFb-31-lhv.text" = "Chinese Traditional";
+
+/* Class = "UIButton"; normalTitle = "Help Center"; ObjectID = "Oen-kF-bOt"; */
+"Oen-kF-bOt.normalTitle" = "Help Center";
+
+/* Class = "UILabel"; text = "Access Code:"; ObjectID = "PhU-qw-UON"; */
+"PhU-qw-UON.text" = "Access Code:";
+
+/* Class = "UIButton"; text = "      Hello        Amy Leung"; ObjectID = "eCi-2H-9x0";*/
+"eCi-2H-9x0.text" = "      Hello        Amy Leung";
+
+/* Class = "UIButton"; normalTitle = "Help Center"; ObjectID = "QnA-YH-knC"; */
+"QnA-YH-knC.normalTitle" = "Help Center";
+
+/* Class = "UILabel"; text = "Display Language"; ObjectID = "Shk-10-XyY"; */
+"Shk-10-XyY.text" = "Display Language";
+
+/* Class = "UIButton"; normalTitle = "Practice Now"; ObjectID = "Uda-KJ-pwi"; */
+"Uda-KJ-pwi.normalTitle" = "Practice Now";
+
+/* Class = "UIButton"; normalTitle = "Cannot access your account?"; ObjectID = "Vh7-Ri-CO2"; */
+"Vh7-Ri-CO2.normalTitle" = "Cannot access your account?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "W6R-co-bEh"; */
+"W6R-co-bEh.text" = "Label";
+
+/* Class = "UILabel"; text = "Marketing Manager"; ObjectID = "WVu-oU-TOs"; */
+"WVu-oU-TOs.text" = "Marketing Manager";
+
+/* Class = "UILabel"; text = "This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information. This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information.   "; ObjectID = "Wed-Aj-vfu"; */
+"Wed-Aj-vfu.text" = "This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information. This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information.   ";
+
+/* Class = "UILabel"; text = "Hello ! Ammy Leung"; ObjectID = "WxK-HN-FDd"; */
+"WxK-HN-FDd.text" = "Hello ! Ammy Leung";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "X4V-4K-zkj"; */
+"X4V-4K-zkj.normalTitle" = "Skip";
+
+/* Class = "UIButton"; normalTitle = "I have read and agree to the"; ObjectID = "XqC-8Y-14H"; */
+"XqC-8Y-14H.normalTitle" = "I have read and agree to the";
+
+/* Class = "UILabel"; text = "Complete Your Interview"; ObjectID = "ZB3-ed-rhf"; */
+"ZB3-ed-rhf.text" = "Complete Your Interview";
+
+/* Class = "UILabel"; text = "2020-05-30  5:30pm (UTC+8)"; ObjectID = "akT-PA-2KJ"; */
+"akT-PA-2KJ.text" = "2020-05-30  5:30pm (UTC+8)";
+
+/* Class = "UILabel"; text = "Light:"; ObjectID = "b5q-Pd-Lbo"; */
+"b5q-Pd-Lbo.text" = "Light:";
+
+/* Class = "UILabel"; text = "www.starbucks.com"; ObjectID = "eQM-q3-2Xo"; */
+"eQM-q3-2Xo.text" = "www.starbucks.com";
+
+/* Class = "UILabel"; text = "30 mins"; ObjectID = "hBP-Rp-O20"; */
+"hBP-Rp-O20.text" = "30 mins";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "iLN-GW-Chb"; */
+"iLN-GW-Chb.text" = "Chinese Simplified";
+
+/* Class = "UILabel"; text = "This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information. This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information.   "; ObjectID = "jmU-d6-GpD"; */
+"jmU-d6-GpD.text" = "This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information. This privacy policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export and delete your information.   ";
+
+/* Class = "UILabel"; text = "Days Left:"; ObjectID = "kWq-oJ-XsA"; */
+"kWq-oJ-XsA.text" = "Days Left:";
+
+/* Class = "UILabel"; text = "Microphone"; ObjectID = "lUk-Zb-XoS"; */
+"lUk-Zb-XoS.text" = "Microphone";
+
+/* Class = "UILabel"; text = "Website: "; ObjectID = "mXZ-j5-Ude"; */
+"mXZ-j5-Ude.text" = "Website: ";
+
+/* Class = "UILabel"; text = "Practice!"; ObjectID = "oAs-ir-xwL"; */
+"oAs-ir-xwL.text" = "Practice!";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "pp3-qd-8hl"; */
+"pp3-qd-8hl.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Starbucks Limited"; ObjectID = "pu8-h1-KHt"; */
+"pu8-h1-KHt.text" = "Starbucks Limited";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "rUS-HD-K5f"; */
+"rUS-HD-K5f.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Network:"; ObjectID = "sk6-kQ-UlP"; */
+"sk6-kQ-UlP.text" = "Network:";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "sl6-ah-nK3"; */
+"sl6-ah-nK3.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Video Interview!"; ObjectID = "tdG-fg-Y9B"; */
+"tdG-fg-Y9B.text" = "Video Interview!";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "wSE-2O-FH1"; */
+"wSE-2O-FH1.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Camera:"; ObjectID = "waM-Po-0Ny"; */
+"waM-Po-0Ny.text" = "Camera:";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "wh7-Fa-zxH"; */
+"wh7-Fa-zxH.text" = "Email:";
+
+/* Class = "UILabel"; text = "You shall make use of this opportunity to showcase your skills and ability to the recruiters."; ObjectID = "ycd-mi-Zc9"; */
+"ycd-mi-Zc9.text" = "You shall make use of this opportunity to showcase your skills and ability to the recruiters.";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "z5p-FV-f62"; */
+"z5p-FV-f62.text" = "10";
+
+/* Class = "UILabel"; text = "After that video interview is conducted virtually. Every question has 30s preparation time. Now please get ready and start."; ObjectID = "zb3-Q7-dNg"; */
+"zb3-Q7-dNg.text" = "After that video interview is conducted virtually. Every question has 30s preparation time. Now please get ready and start.";
