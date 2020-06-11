@@ -31,8 +31,10 @@ class SettingViewController: UIViewController {
         super.viewDidLoad()
 
         self.title = "Setting Quickcheck"
-        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
-        UINavigationBar.appearance().barTintColor = UIColor(red: 154.0/255.0, green: 175.0/255.0, blue: 238.0/255.0, alpha: 1.0)
+        self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0.6661407351, green: 0.7471138835, blue: 0.9474585652, alpha: 1)
+        self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.6661407351, green: 0.7471138835, blue: 0.9474585652, alpha: 1)
+        self.navigationController?.navigationBar.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
 //        self.navigationController?.navigationBar.barTintColor = UIColor.init(displayP3Red: 154.0, green: 175.0, blue: 238.0, alpha: 1.0)
 //        self.navigationController?.navigationBar.tintColor = UIColor.init(displayP3Red: 154.0, green: 176.0, blue: 238.0, alpha: 0)
         self.navigationController?.navigationBar.isHidden = false

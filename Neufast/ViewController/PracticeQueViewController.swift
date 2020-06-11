@@ -14,8 +14,11 @@ class PracticeQueViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var timeProgress: UIProgressView!
     @IBOutlet weak var answerBtn: UIButton!
+    @IBOutlet weak var overlayView: UIView!
+    
     @IBOutlet weak var activityLoader: UIActivityIndicatorView!
     @IBOutlet weak var loaderView: UIView!
+    
     var progress : Progress?
     
     var questions: [Any]?
@@ -23,6 +26,9 @@ class PracticeQueViewController: UIViewController, UIScrollViewDelegate {
     var loaderTimer: Timer?
     var loaderStartTime = 0
     var loaderEndTime = 5
+    
+    var overlayTimer: Timer?
+    var overlayTime = 3
     
     var endTime = 5
     var startTime = 0
@@ -35,10 +41,13 @@ class PracticeQueViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         questions = ["Why don\'t you start by telling me little about yourself?", "What are your weaknesses?", "What are your strengths","How much is your total experience?", "What is the reason behind switching the job?", "Do you have any offer in hand?", "What is your notice period"]
-        self.title = "Question 1 of \(String(describing: questions?.count))"
+        //self.title = "Question 1 of \(String(describing: questions?.count))"
         self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.6661407351, green: 0.7471138835, blue: 0.9474585652, alpha: 1)
+        self.navigationController?.navigationBar.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
        // self.navigationItem.title = "Question 1 of \(String(describing: questions?.count))"
 //        navigationController?.navigationBar.topItem?.title = "Route Options"
+        self.overlayView.isHidden = true
         self.progress = Progress(totalUnitCount: Int64(self.endTime))
         self.timeProgress.transform = timeProgress.transform.scaledBy(x: 1, y: 4)
         self.displayQuestion()
@@ -46,7 +55,8 @@ class PracticeQueViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        self.title = "Question 1 of \(String(describing: questions?.count))"
+        //self.overlayView.isHidden = true
+       // self.title = "Question 1 of \(String(describing: questions?.count))"
         //backFromAns = self.setLoaderPointer(pointer: <#T##Bool#>)
         print("Back \(String(describing: backFromAns))")
     }
@@ -58,9 +68,15 @@ class PracticeQueViewController: UIViewController, UIScrollViewDelegate {
     @IBAction func onAnswer(_ sender: Any) {
         self.cancelTimer()
         if answerBtnText == "Answer" {
-            let ansView = storyboard?.instantiateViewController(withIdentifier: "PracticeAnsViewController")
-            self.navigationController?.present(ansView!, animated: false, completion: nil)
-//            self.navigationController?.pushViewController(ansView!, animated:false)
+//            let ansView = storyboard?.instantiateViewController(withIdentifier: "PracticeAnsViewController")
+//            self.navigationController?.present(ansView!, animated: false, completion: nil)
+            self.overlayView.isHidden = false
+//            self.view.addSubview(self.overlayView)
+            self.questionLabel.bringSubview(toFront: self.overlayView)
+            overlayTime = 0
+            overlayTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateOverlayTime), userInfo: nil, repeats: true)
+            RunLoop.current.add(overlayTimer!, forMode: RunLoopMode.commonModes)
+            overlayTimer!.tolerance = 0.1
             answerBtnText = "Done"
             answerBtn.setImage(UIImage(named: "done"), for: .normal)
         } else if answerBtnText == "Done" {
@@ -92,7 +108,10 @@ class PracticeQueViewController: UIViewController, UIScrollViewDelegate {
         self.createTimer()
         if questions?.count != 0 {
 //            let questionNo = questionNo -1
+            print("questionNo: \(questionNo)")
+            self.title = "Question \(questionNo) of \(String(describing: questions?.count))"
             selectedQuestion = questions![questionNo-1] as? String
+             print("questionNo: \(questionNo-1)")
         }
         
         questionLabel.text = self.selectedQuestion
@@ -131,17 +150,6 @@ class PracticeQueViewController: UIViewController, UIScrollViewDelegate {
     
     //MARK: Timer
     func createTimer() {
-//      if timer == nil {
-//        let timer = Timer(timeInterval: 1.0,
-//          target: self,
-//          selector: #selector(updateTimer),
-//          userInfo: nil,
-//          repeats: true)
-//        RunLoop.current.add(timer, forMode: .RunLoopMode.commonModes)
-//        timer.tolerance = 0.1
-//
-//        self.timer = timer
-//      }
         startTime = 0
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
         
@@ -172,6 +180,17 @@ class PracticeQueViewController: UIViewController, UIScrollViewDelegate {
             }
         }
     }
+    
+    @objc func updateOverlayTime() {
+        overlayTime = overlayTime - 1
+        print(overlayTime)
+        if overlayTime == 0 {
+            overlayTimer?.invalidate()
+            overlayTimer = nil
+            self.overlayView.isHidden = true            
+        }
+    }
+    
     @objc func updateTime() {
         startTime = startTime + 1
         

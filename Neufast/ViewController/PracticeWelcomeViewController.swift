@@ -24,6 +24,7 @@ class PracticeWelcomeViewController: UIViewController {
     }
     
     @IBAction func start(_ sender: Any) {
+        cancelTimer()
         let questionView = storyboard?.instantiateViewController(withIdentifier: "PracticeQueViewController")
         self.navigationController?.pushViewController(questionView!, animated: true)
     }
@@ -31,7 +32,7 @@ class PracticeWelcomeViewController: UIViewController {
     
     //MARK: Timer
     func createTimer() {
-      if welcomeTimer == nil {
+//      if welcomeTimer == nil {
 //        let timer = Timer(timeInterval: 1.0,
 //          target: self,
 //          selector: #selector(updateTime),
@@ -42,11 +43,11 @@ class PracticeWelcomeViewController: UIViewController {
 //
 //        self.timer = timer
         
-        welcomeTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTime), userInfo: nil, repeats: false)
+        welcomeTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateWelcomeTime), userInfo: nil, repeats: false)
         RunLoop.current.add(welcomeTimer!, forMode: RunLoopMode.commonModes)
         welcomeTimer!.tolerance = 0.1
 
-      }
+//      }
     }
     
     func cancelTimer() {
@@ -57,8 +58,8 @@ class PracticeWelcomeViewController: UIViewController {
     
    
     
-    @objc func updateTime() {
-        timeLeft -= 1
+    @objc func updateWelcomeTime() {
+        timeLeft = timeLeft - 1
         print("timeLeft: \(timeLeft)")
         if timeLeft <= 0 {
             welcomeTimer?.invalidate()
