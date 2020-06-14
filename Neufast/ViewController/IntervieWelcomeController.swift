@@ -19,8 +19,7 @@ class IntervieWelcomeController: UIViewController {
    
     @IBAction func onStartNow(_ sender: Any) {
         let iSettingView = storyboard?.instantiateViewController(withIdentifier: "InterviewSettingController")
-        self.navigationController?.pushViewController(iSettingView!, animated: true)
-        
+        self.navigationController?.pushViewController(iSettingView!, animated: true)        
     }
     
     @IBAction func onBack(_ sender: Any) {

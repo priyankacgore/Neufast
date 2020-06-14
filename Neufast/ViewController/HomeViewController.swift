@@ -28,6 +28,7 @@ class HomeViewController: UIViewController {//}, UITableViewDelegate, UITableVie
     var player: AVPlayer!
     var avpController = AVPlayerViewController()
     let viewTypeCount =  4
+    let AlertInstance =  CustomAlert.alertInstance
     
     override func loadView() {
         super.loadView()
@@ -79,15 +80,26 @@ class HomeViewController: UIViewController {//}, UITableViewDelegate, UITableVie
 //        CustomAlert.alertInstance.showAlert(title: titleText, message: messageText, iconImg: UIImage(named: "practice-icon")!, firstBtnLabel: "Practice", secondBtnLabel: "Start the Interview")
 //        let interviewView = storyboard?.instantiateViewController(withIdentifier: "InterViewController")
 //        self.navigationController?.pushViewController(interviewView!, animated: true)
-        let interView = storyboard?.instantiateViewController(withIdentifier: "IntervieWelcomeController")
-        self.navigationController?.pushViewController(interView!, animated: true)
-//        
+      
 //        let interviewAlert = interviewAlertView(nibName: "interviewAlertView", bundle: nil)
 //        let navigationController = UINavigationController(rootViewController: interviewAlert)
-//
 //               // Present View "Modally"
 //        self.present(navigationController, animated: true, completion: nil)
+        
+//        let interView = storyboard?.instantiateViewController(withIdentifier: "IntervieWelcomeController")
+//              self.navigationController?.pushViewController(interView!, animated: true)
+         let titleText = "We suggest you to practice interview answers first before starting the video interview."
+        let messageText = "Once you start the video interview, you must finish the whole process. No breaks will be scheduled."
+        AlertInstance.showAlert(title: titleText, message: messageText, iconImg: UIImage(named: "practice-icon")!, firstBtnLabel: "Practice", secondBtnLabel: "Start the Interview", navController: self.navigationController!)
+//        AlertInstance.prepareScreen(navController: self.navigationController!)
     }
+    
+    @IBAction func onHelpCenter(_ sender: Any) {
+        let helpView = storyboard?.instantiateViewController(withIdentifier: "GuidelineViewController")
+        self.navigationController?.pushViewController(helpView!, animated: true)
+    }
+    
+    
     /*
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4

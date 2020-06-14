@@ -27,13 +27,17 @@ class InterviewSettingController: UIViewController {
 
     var videoCaptureDevice : AVCaptureDevice?
     
+    let interviewAlertInstance =  interviewAlert.ialertInstance
+    
     override func viewDidLoad(){
         super.viewDidLoad()
 
         self.title = "Setting Quickcheck"
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
-        UINavigationBar.appearance().barTintColor = UIColor(red: 154.0/255.0, green: 175.0/255.0, blue: 238.0/255.0, alpha: 1.0)
+//        UINavigationBar.appearance().barTintColor = UIColor(red: 154.0/255.0, green: 175.0/255.0, blue: 238.0/255.0, alpha: 1.0)
         self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.6661407351, green: 0.7471138835, blue: 0.9474585652, alpha: 1)
+        self.navigationController?.navigationBar.tintColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        self.navigationItem.hidesBackButton = true
 //        self.navigationController?.navigationBar.tintColor = UIColor.init(displayP3Red: 154.0, green: 176.0, blue: 238.0, alpha: 0)
         self.navigationController?.navigationBar.isHidden = false
 
@@ -42,8 +46,11 @@ class InterviewSettingController: UIViewController {
     }
     
     @IBAction func onStart(_ sender: Any) {
-        let interviewQueView = storyboard?.instantiateViewController(withIdentifier: "InterviewQueViewController")
-        self.navigationController?.pushViewController(interviewQueView!, animated: true)
+        let titleText = "Once you start the video interview, you must finish the whole process."
+        let messageText = "No breaks will be scheduled."
+        interviewAlertInstance.showInterviewAlert(title: titleText, message: messageText, iconImg: UIImage(named: "interview-icon")!, firstBtnLabel: "I'm ready to start.", secondBtnLabel: "I want to practice again.", navController: self.navigationController!)
+//        let interviewQueView = storyboard?.instantiateViewController(withIdentifier: "InterviewQueViewController")
+//        self.navigationController?.pushViewController(interviewQueView!, animated: true)
     }
     
     @IBAction func onHelpCenter(_ sender: Any) {

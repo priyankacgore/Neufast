@@ -75,11 +75,11 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9M-Ew-6aG">
                                     <rect key="frame" x="100" y="324" width="154" height="40"/>
-                                    <color key="backgroundColor" red="0.60392156860000001" green="0.68627450980000004" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="40" id="Egp-X8-DjX"/>
                                     </constraints>
-                                    <state key="normal" title="Start ">
+                                    <state key="normal" title="Start the Interview">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
@@ -106,7 +106,7 @@
                                     </userDefinedRuntimeAttributes>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstItem="R9M-Ew-6aG" firstAttribute="top" secondItem="9FO-Sr-aEJ" secondAttribute="bottom" constant="10" id="1NT-dW-gYV"/>
                                 <constraint firstItem="fd7-Bo-D77" firstAttribute="leading" secondItem="zS7-ba-99C" secondAttribute="leading" constant="12" id="6je-xQ-HXi"/>
@@ -129,14 +129,13 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.80318921232876717" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="zS7-ba-99C" firstAttribute="centerY" secondItem="MRg-zc-3PX" secondAttribute="centerY" id="gpy-rB-ywz"/>
                         <constraint firstItem="zS7-ba-99C" firstAttribute="centerX" secondItem="MRg-zc-3PX" secondAttribute="centerX" id="tRr-ph-p2P"/>
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="MRg-zc-3PX" secondAttribute="bottom" id="CXx-j1-fNW"/>
                 <constraint firstItem="MRg-zc-3PX" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="bqZ-aZ-wS3"/>

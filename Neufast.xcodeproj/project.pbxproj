@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181BB3A524935CDE00C65394 /* InterviewStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BB3A424935CDE00C65394 /* InterviewStartViewController.swift */; };
+		181BB3A82493610400C65394 /* interviewAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181BB3A62493610400C65394 /* interviewAlert.xib */; };
+		181BB3A92493610400C65394 /* interviewAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BB3A72493610400C65394 /* interviewAlert.swift */; };
+		181BB3AB249368D300C65394 /* InterviewFinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BB3AA249368D300C65394 /* InterviewFinishViewController.swift */; };
 		1831F450248E0F2F00AEBE2D /* PracticeCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831F44F248E0F2F00AEBE2D /* PracticeCompleteViewController.swift */; };
 		18373D65247CF2B100450AA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18373D64247CF2B100450AA7 /* AppDelegate.swift */; };
 		18373D67247CF2B100450AA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18373D66247CF2B100450AA7 /* SceneDelegate.swift */; };
@@ -44,6 +48,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181BB3A424935CDE00C65394 /* InterviewStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewStartViewController.swift; sourceTree = "<group>"; };
+		181BB3A62493610400C65394 /* interviewAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = interviewAlert.xib; sourceTree = "<group>"; };
+		181BB3A72493610400C65394 /* interviewAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interviewAlert.swift; sourceTree = "<group>"; };
+		181BB3AA249368D300C65394 /* InterviewFinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewFinishViewController.swift; sourceTree = "<group>"; };
 		1831F44F248E0F2F00AEBE2D /* PracticeCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCompleteViewController.swift; sourceTree = "<group>"; };
 		18373D61247CF2B100450AA7 /* Neufast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neufast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18373D64247CF2B100450AA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +145,8 @@
 		18373D78247CF72200450AA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				181BB3A72493610400C65394 /* interviewAlert.swift */,
+				181BB3A62493610400C65394 /* interviewAlert.xib */,
 				18691CB7248F9C0B0012BC75 /* MBProgressHUD.h */,
 				18691CB8248F9C0B0012BC75 /* MBProgressHUD.m */,
 				18691CB6248F9C0B0012BC75 /* LoaderClass.swift */,
@@ -157,6 +167,8 @@
 		185CBF98248D2F170064D4B6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				181BB3AA249368D300C65394 /* InterviewFinishViewController.swift */,
+				181BB3A424935CDE00C65394 /* InterviewStartViewController.swift */,
 				185CBFB2248D56C10064D4B6 /* IntroViewController.swift */,
 				185CBFB1248D56C10064D4B6 /* LanguageSelectionController.swift */,
 				185CBF9C248D2F170064D4B6 /* GuidelineViewController.swift */,
@@ -247,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181BB3A82493610400C65394 /* interviewAlert.xib in Resources */,
 				18587246247EB78D001E665F /* notAccessAccountView.xib in Resources */,
 				1867011F2485060F003C1570 /* interviewAlertView.xib in Resources */,
 				18373D71247CF2BB00450AA7 /* LaunchScreen.storyboard in Resources */,
@@ -271,6 +284,7 @@
 				185CBFAB248D2F170064D4B6 /* PracticeQueViewController.swift in Sources */,
 				185CBFA6248D2F170064D4B6 /* PracticeWelcomeViewController.swift in Sources */,
 				185CBFA8248D2F170064D4B6 /* GuidelineViewController.swift in Sources */,
+				181BB3A524935CDE00C65394 /* InterviewStartViewController.swift in Sources */,
 				18691CBB248F9C0B0012BC75 /* MBProgressHUD.m in Sources */,
 				185CBFA9248D2F170064D4B6 /* WelcomeViewController.swift in Sources */,
 				1839B03C2491494A00005DE8 /* CustomAlert.swift in Sources */,
@@ -278,11 +292,13 @@
 				185CBFA5248D2F170064D4B6 /* SettingViewController.swift in Sources */,
 				185CBFAA248D2F170064D4B6 /* HomeViewController.swift in Sources */,
 				185CBFAC248D2F170064D4B6 /* PracticeViewController.swift in Sources */,
+				181BB3AB249368D300C65394 /* InterviewFinishViewController.swift in Sources */,
 				185CBFAE248D2F170064D4B6 /* LoginViewController.swift in Sources */,
 				18587249247F0108001E665F /* successView.swift in Sources */,
 				18373D69247CF2B100450AA7 /* SplashViewController.swift in Sources */,
 				18373D65247CF2B100450AA7 /* AppDelegate.swift in Sources */,
 				18373D67247CF2B100450AA7 /* SceneDelegate.swift in Sources */,
+				181BB3A92493610400C65394 /* interviewAlert.swift in Sources */,
 				185CBFB6248D6C800064D4B6 /* InterviewCompleteViewController.swift in Sources */,
 				1867011E2485060F003C1570 /* interviewAlertView.swift in Sources */,
 				185CBFB4248D56C10064D4B6 /* IntroViewController.swift in Sources */,
